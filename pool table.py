@@ -58,7 +58,7 @@ class Ball:
             else:
                 display.blit(ballNo, (x - 5, y - 5))
 
-    # Moves thw Ball around the sreen
+    # Moves the Ball around the sreen
     def move(self):
         self.speed -= friction
         if self.speed <= 0:
